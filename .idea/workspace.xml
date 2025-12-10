@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9c23198-d4de-4277-bae3-124009b00b55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/companions/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/companions/new/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/companions/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/my-journey/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sign-in/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/subscription/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765364716028</updated>
-      <workItem from="1765364717113" duration="4341000" />
+      <workItem from="1765364717113" duration="9375000" />
     </task>
     <servers />
   </component>
