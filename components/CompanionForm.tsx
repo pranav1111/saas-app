@@ -40,7 +40,7 @@ import {subjects} from "@/constants";
 import {Textarea} from "@/components/ui/textarea";
 import {values} from "eslint-config-next";
 import {createCompanion} from "@/lib/actions/companions.actions";
-import {redirect} from "next/navigation";
+import {useRouter} from "next/navigation";
 
 const formSchema = z.object({
     duration: z
@@ -69,6 +69,7 @@ const formSchema = z.object({
 })
 
 const CompanionForm = () => {
+    const router = useRouter();
 
         const form = useForm<z.infer<typeof formSchema>>({
             resolver: zodResolver(formSchema),
@@ -85,10 +86,10 @@ const CompanionForm = () => {
             const companion = await createCompanion(values);
 
             if(companion) {
-                redirect(`/companions/${companion.id}`)
+                router.push(`/companions/${companion.id}`)
             } else {
                 console.log("Failed to Create a Companion")
-                redirect('/');
+                router.push('/');
             }
         }
 
